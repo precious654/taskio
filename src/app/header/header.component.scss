@@ -1,0 +1,62 @@
+header{
+    font-family: 'Mooli', sans-serif;
+    padding-block-start: 1rem;
+    padding-inline-end: 1rem;
+    
+    
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+        h4{
+            margin-block-end: 0.5rem;
+        }
+
+        p{
+            font-size: 12px;
+        }
+
+        button{
+            padding: 0.5rem 1rem;
+            border-radius: 9px;
+            border: none;
+            color: #f6f6f7;
+            background-color: #121515;
+            font-family: 'Mooli', sans-serif;
+            font-weight: bold;
+            
+
+            &:hover{
+                background-color: #4b914c;
+                color: #121515;
+            }
+        }
+    }
+
+    input{
+        padding: 0.5rem;
+        border: none;
+        border-radius: 9px;
+        background-color: #121515;
+        font-family: 'Mooli', sans-serif;
+        color: #f6f6f7;
+        outline: none;
+
+        &::placeholder{
+            color: #52575f;
+            font-family: 'Mooli', sans-serif;
+        }
+    }
+
+    .profile-part{
+        display: flex;
+        gap: 1.5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    button{
+        display: none;
+    }
+}

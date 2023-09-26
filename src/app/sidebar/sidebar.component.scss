@@ -1,0 +1,43 @@
+aside{
+    background-color: #1c1f20;
+    block-size: 100vh;
+    padding-block-start: 1rem;
+    inline-size: 15rem;
+    
+    
+
+    h2{
+        text-align: center;
+        margin-block-end: 7rem;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+
+        button{
+            background-color: inherit;
+            color: inherit;
+            inline-size: 100%;
+            border: none;
+            font-family: 'Mooli', sans-serif;
+            padding: 1rem;
+            font-weight: bold;
+
+            &:hover{
+                background-color: #4b914c;
+                color: #1c1f20;
+                opacity: 0.4;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    aside{
+        display: none;
+    }
+}
