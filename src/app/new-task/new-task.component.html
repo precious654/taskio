@@ -1,0 +1,24 @@
+<form>
+    <div>
+        <label for="title">Title</label>
+        <input type="text" placeholder="Title" id="title">
+    </div>
+    
+    <div>
+        <label for="description">Description</label>
+        <textarea placeholder="Description" id="description"></textarea>
+    </div>
+    
+    <div class="priority-div">
+        <label for="">Priority</label>
+        <div class="priority">
+            <button (click)="selected($event)">High</button>
+            <button (click)="selected($event)">Medium</button>
+            <button (click)="selected($event)">Low</button>
+        </div>
+    </div>
+
+    <div>
+        <button>Submit</button>
+    </div>
+</form>

@@ -56,7 +56,8 @@ header{
 }
 
 @media(max-width: 768px) {
-    button{
+
+    .new-task{
         display: none;
     }
 }
